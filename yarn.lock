@@ -1173,12 +1173,12 @@
   dependencies:
     node-fetch "^2.6.0"
 
-"@ovotech/ts-compose@^0.16.0":
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/@ovotech/ts-compose/-/ts-compose-0.16.0.tgz#51dbf7f5410f14d2337cdfed62326c0381b3a72d"
-  integrity sha512-zVqxKAk+xtP7tdnuD4lORbtc7XuyyplINamMWklCZ1HKSBKZrhZLq9yCs8erWT/pPOQ0MGzcYav9qLPH5WmXIw==
+"@ovotech/ts-compose@^0.21.0":
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/@ovotech/ts-compose/-/ts-compose-0.21.0.tgz#ea1598c530ff4c4c8f94d1bef5aa4f3c36eecfef"
+  integrity sha512-mFn58lUMknXSzc5u8nSu4VaR4hDHQ20sWPCSqiMhEW8cJH2MV99N/KMdqPe648EfWabfeEzansdnCio7lAo8kw==
   dependencies:
-    typescript "^4.1.2"
+    typescript "^4.8.3"
 
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
@@ -8075,10 +8075,15 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.2.tgz#8170b3702f74b79db2e5a96207c15e65807999e4"
   integrity sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==
 
-typescript@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.2.tgz#6369ef22516fe5e10304aae5a5c4862db55380e9"
-  integrity sha512-thGloWsGH3SOxv1SoY7QojKi0tc+8FnOmiarEGMbd/lar7QOEd3hvlx3Fp5y6FlDUGl9L+pd4n2e+oToGMmhRQ==
+typescript@^4.8.3:
+  version "4.9.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
+  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
+
+typescript@^5.9.3:
+  version "5.9.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.3.tgz#5b4f59e15310ab17a216f5d6cf53ee476ede670f"
+  integrity sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==
 
 uglify-js@^3.1.4:
   version "3.10.4"

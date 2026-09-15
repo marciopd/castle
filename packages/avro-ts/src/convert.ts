@@ -12,7 +12,7 @@ import { isPrimitiveType, convertPrimitiveType } from './types/primitive';
 import { isFixedType, convertFixedType } from './types/fixed';
 import { withHeader, withImports } from '@ovotech/ts-compose/dist/document';
 import { fullName, firstUpperCase, nameParts, convertName } from './helpers';
-import * as ts from 'typescript';
+import ts from './ts-runtime';
 import { convertNamedType, isNamedType } from './types/named-type';
 
 export const addRef = (type: schema.RecordType | schema.EnumType, context: Context): Context => ({
