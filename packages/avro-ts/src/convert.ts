@@ -1,4 +1,5 @@
 import { Schema, schema } from 'avsc';
+import './ts-compose-compat';
 import { document, Type, printDocument } from '@ovotech/ts-compose';
 import { Convert, Context } from './types';
 import { isWrappedUnion, convertWrappedUnionType } from './types/wrapped-union';
