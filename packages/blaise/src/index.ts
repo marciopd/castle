@@ -1,9 +1,9 @@
-import { AvroKafkaMessage } from '@ovotech/avro-kafkajs';
+import { AvroKafkaMessage } from '@marciopd/avro-kafkajs';
 import avroMock, { Seeded } from '@ovotech/avro-mock-generator';
 import {
   CastleEachBatchPayload,
   CastleEachMessagePayload,
-} from '@ovotech/castle';
+} from '@marciopd/castle';
 import merge = require('lodash.merge');
 import { DeepPartial } from 'ts-essentials';
 import { BlaiseDefaults, Blaise } from './types';

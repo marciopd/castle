@@ -1,4 +1,4 @@
-import { toTypeScript } from '@ovotech/avro-ts';
+import { toTypeScript } from '@marciopd/avro-ts';
 import { Schema } from 'avsc';
 
 const avro: Schema = {

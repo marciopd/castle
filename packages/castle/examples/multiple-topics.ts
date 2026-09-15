@@ -4,7 +4,7 @@ import {
   consumeEachMessage,
   consumeEachBatch,
   describeCastle,
-} from '@ovotech/castle';
+} from '@marciopd/castle';
 import {
   StartEvent,
   StartEventSchema,

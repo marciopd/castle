@@ -1,5 +1,5 @@
 import { Kafka } from 'kafkajs';
-import { AvroKafka, AvroProducer, SchemaRegistry, AvroTransformBatch } from '@ovotech/avro-kafkajs';
+import { AvroKafka, AvroProducer, SchemaRegistry, AvroTransformBatch } from '@marciopd/avro-kafkajs';
 import {
   CastleStreamConfig,
   CastleStream,

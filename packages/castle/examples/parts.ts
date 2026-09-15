@@ -6,7 +6,7 @@ import {
   createProducer,
   createConsumers,
   createCastleFromParts,
-} from '@ovotech/castle';
+} from '@marciopd/castle';
 import { Event, EventSchema } from './avro';
 
 // Define producers as pure functions

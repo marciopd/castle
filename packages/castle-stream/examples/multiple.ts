@@ -1,6 +1,6 @@
 import { Schema } from 'avsc';
 import { ObjectReadableMock } from 'stream-mock';
-import { createCastleStream } from '@ovotech/castle-stream';
+import { createCastleStream } from '@marciopd/castle-stream';
 import { CastleStreamConsumerConfig } from '../src';
 
 export interface Event1 {

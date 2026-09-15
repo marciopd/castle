@@ -8,7 +8,7 @@ import {
   AvroMessage,
   AvroKafka,
   TopicsAlias,
-} from '@ovotech/avro-kafkajs';
+} from '@marciopd/avro-kafkajs';
 import {
   ConsumerConfig,
   KafkaConfig,

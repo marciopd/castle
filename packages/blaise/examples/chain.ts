@@ -1,4 +1,4 @@
-import blaise from '@ovotech/blaise'
+import blaise from '@marciopd/blaise'
 
 const withAvro = blaise({ avro: { schema } });
 const coffee = withAvro({ avro: { pickUnion: ['coffee'] } });

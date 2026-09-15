@@ -2,7 +2,7 @@ import { retry } from 'ts-retry-promise';
 import * as ansiRegex from 'ansi-regex';
 import * as uuid from 'uuid';
 import { Output, castle } from '../src';
-import { AvroKafka, SchemaRegistry } from '@ovotech/avro-kafkajs';
+import { AvroKafka, SchemaRegistry } from '@marciopd/avro-kafkajs';
 import { Kafka, logLevel, ConfigResourceTypes } from 'kafkajs';
 import { join } from 'path';
 import { readFileSync, writeFileSync } from 'fs';

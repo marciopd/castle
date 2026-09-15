@@ -16,4 +16,4 @@ export {
   ToPartition,
   AvroTransformBatch,
   AvroTransformBatchConfig,
-} from '@ovotech/avro-kafkajs';
+} from '@marciopd/avro-kafkajs';

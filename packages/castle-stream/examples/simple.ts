@@ -1,6 +1,6 @@
 import { Schema } from 'avsc';
 import { ObjectReadableMock } from 'stream-mock';
-import { createCastleStream, StreamKafkaMessage } from '@ovotech/castle-stream';
+import { createCastleStream, StreamKafkaMessage } from '@marciopd/castle-stream';
 
 export interface Event1 {
   field1: string;

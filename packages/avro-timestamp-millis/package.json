@@ -1,7 +1,7 @@
 {
-  "name": "@ovotech/avro-timestamp-millis",
+  "name": "@marciopd/avro-timestamp-millis",
   "description": "A logical type representing Date as long number",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "main": "dist/index.js",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",

@@ -1,4 +1,4 @@
-import { Middleware } from '@ovotech/castle';
+import { Middleware } from '@marciopd/castle';
 import { Pool, PoolClient, PoolConfig } from 'pg';
 
 export interface DbContext {

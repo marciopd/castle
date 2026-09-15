@@ -1140,15 +1140,6 @@
   dependencies:
     "@octokit/openapi-types" "^23.0.1"
 
-"@ovotech/avro-kafkajs@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@ovotech/avro-kafkajs/-/avro-kafkajs-0.7.1.tgz#a60857a4197b11b37af80d4529292c74550aaeb8"
-  integrity sha512-veKjN14KLV69B/zk+Pt05S444tlV9c5ZuGNqFrLap8midtpxb6E7XsqLI/it3EKcxOjBv7YJp5xCWj8sthGpKQ==
-  dependencies:
-    "@ovotech/schema-registry-api" "^1.1.1"
-    avsc "^5.5.6"
-    long "^4.0.0"
-
 "@ovotech/avro-mock-generator@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@ovotech/avro-mock-generator/-/avro-mock-generator-3.0.0.tgz#565dc132b3d3c8769bdcedac96ff9fbd9e3ccd9e"
@@ -1156,15 +1147,6 @@
   dependencies:
     mersenne-twister "^1.1.0"
     uuid "^9.0.0"
-
-"@ovotech/castle@^0.7.0":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@ovotech/castle/-/castle-0.7.1.tgz#781e75d3d5f91cb29c229e4d32fdbb9402d557d1"
-  integrity sha512-vqQL98wzY8+bcG2pUhL6YGjFSS/KFz7UHmAF6CgGMBhhmdSOeul78vmdt8zVpEr/mc3OoUdryT2VZvHdDE3GsA==
-  dependencies:
-    "@ovotech/avro-kafkajs" "^0.7.1"
-    kafkajs "^1.15.0"
-    lodash.chunk "^4.2.0"
 
 "@ovotech/schema-registry-api@^1.1.1":
   version "1.1.1"

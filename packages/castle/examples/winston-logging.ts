@@ -5,7 +5,7 @@ import {
   createLogging,
   toLogCreator,
   LoggingContext,
-} from '@ovotech/castle';
+} from '@marciopd/castle';
 import { Event, EventSchema } from './avro';
 import * as winston from 'winston';
 

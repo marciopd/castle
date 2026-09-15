@@ -1,4 +1,4 @@
-import { createCastle, produce, consumeEachMessage, describeCastle } from '@ovotech/castle';
+import { createCastle, produce, consumeEachMessage, describeCastle } from '@marciopd/castle';
 import { UserEvent as OldUserEvent } from './avro/OldSchema.avsc';
 import { UserEvent as NewUserEvent } from './avro/NewSchema.avsc';
 import { readFileSync } from 'fs';

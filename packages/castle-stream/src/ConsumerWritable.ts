@@ -1,5 +1,5 @@
 import { Writable } from 'stream';
-import { AvroProducer, AvroEachBatchPayload } from '@ovotech/avro-kafkajs';
+import { AvroProducer, AvroEachBatchPayload } from '@marciopd/avro-kafkajs';
 import { CastleStreamTopicSubscribe } from './types';
 import { KafkaMessage } from 'kafkajs';
 

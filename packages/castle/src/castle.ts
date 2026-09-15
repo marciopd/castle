@@ -6,7 +6,7 @@ import {
   SchemaRegistry,
   AvroConsumer,
   AvroProducerRecordSchema,
-} from '@ovotech/avro-kafkajs';
+} from '@marciopd/avro-kafkajs';
 import {
   CastleConsumerConfig,
   CastleConfig,

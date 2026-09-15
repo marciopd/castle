@@ -1,4 +1,4 @@
-import { createCastle, describeCastle, produce, consumeEachMessage } from '@ovotech/castle';
+import { createCastle, describeCastle, produce, consumeEachMessage } from '@marciopd/castle';
 import { StartEvent, StartEventSchema, CompleteEvent, CompleteEventSchema } from './avro';
 import {
   createDb,

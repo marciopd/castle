@@ -4,7 +4,7 @@ import {
   consumeEachMessage,
   describeCastle,
   optionalConsumers,
-} from '@ovotech/castle';
+} from '@marciopd/castle';
 import { Event, EventSchema } from './avro';
 
 // Allow topic name for consumer to be undefined. If it ever is undefined, no consumption will happen.

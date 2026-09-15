@@ -1,5 +1,5 @@
 import { Type, Schema } from 'avsc';
-import { AvroTimestampMillis } from '@ovotech/avro-timestamp-millis';
+import { AvroTimestampMillis } from '@marciopd/avro-timestamp-millis';
 
 const eventSchema: Schema = {
   type: 'record',
