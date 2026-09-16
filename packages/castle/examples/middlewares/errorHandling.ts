@@ -1,4 +1,4 @@
-import { Middleware } from '@ovotech/castle';
+import { Middleware } from '@marciopd/castle';
 import { LoggingContext } from './logging';
 
 export const createErrorHandling = (): Middleware<{}, LoggingContext> => {

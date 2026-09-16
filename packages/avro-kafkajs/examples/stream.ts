@@ -1,4 +1,4 @@
-import { AvroTransformBatch } from '@ovotech/avro-kafkajs';
+import { AvroTransformBatch } from '@marciopd/avro-kafkajs';
 import { Schema } from 'avsc';
 import { ObjectReadableMock } from 'stream-mock';
 

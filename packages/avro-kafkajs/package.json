@@ -1,6 +1,6 @@
 {
-  "name": "@ovotech/avro-kafkajs",
-  "version": "0.8.1",
+  "name": "@marciopd/avro-kafkajs",
+  "version": "0.9.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "A wrapper around Kafkajs to transparently use Schema Registry for producing and consuming messages with avro schemas.",
@@ -26,7 +26,7 @@
     "ts-jest": "^26.5.1",
     "ts-node": "^9.1.1",
     "ts-retry-promise": "^0.6.0",
-    "typescript": "^4.1.2",
+    "typescript": "^5.9.3",
     "uuid": "^8.3.1"
   },
   "scripts": {

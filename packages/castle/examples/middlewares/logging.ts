@@ -1,4 +1,4 @@
-import { Middleware } from '@ovotech/castle';
+import { Middleware } from '@marciopd/castle';
 
 export interface Logger {
   log: (...args: unknown[]) => void;

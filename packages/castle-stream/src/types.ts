@@ -6,10 +6,10 @@ import {
   TopicsAlias,
   AvroTransformBatch,
   AvroTransformBatchConfig,
-} from '@ovotech/avro-kafkajs';
+} from '@marciopd/avro-kafkajs';
 import { Readable, Writable } from 'stream';
 import { KafkaConfig, ProducerConfig } from 'kafkajs';
-import { CastleEachMessagePayload, CastleEachBatchPayload } from '@ovotech/castle';
+import { CastleEachMessagePayload, CastleEachBatchPayload } from '@marciopd/castle';
 
 export interface CastleStream {
   kafka: AvroKafka;

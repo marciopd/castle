@@ -1,5 +1,5 @@
 import * as commander from 'commander';
-import { toTypeScript, toExternalContext } from '@ovotech/avro-ts';
+import { toTypeScript, toExternalContext } from '@marciopd/avro-ts';
 import { Schema } from 'avsc';
 import { join, basename, relative, dirname } from 'path';
 import { readFileSync, writeFileSync } from 'fs';

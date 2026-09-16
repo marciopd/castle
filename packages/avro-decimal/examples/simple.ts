@@ -1,5 +1,5 @@
 import { Type, Schema } from 'avsc';
-import { AvroDecimal } from '@ovotech/avro-decimal';
+import { AvroDecimal } from '@marciopd/avro-decimal';
 import { Decimal } from 'decimal.js';
 
 const decimalSchema: Schema = {

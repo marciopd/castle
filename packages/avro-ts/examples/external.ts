@@ -1,4 +1,4 @@
-import { toTypeScript, toExternalContext } from '@ovotech/avro-ts';
+import { toTypeScript, toExternalContext } from '@marciopd/avro-ts';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 

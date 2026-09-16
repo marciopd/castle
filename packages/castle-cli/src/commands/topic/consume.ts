@@ -1,5 +1,5 @@
 import * as commander from 'commander';
-import { SchemaRegistry, AvroKafka, AvroKafkaMessage, AvroBatch } from '@ovotech/avro-kafkajs';
+import { SchemaRegistry, AvroKafka, AvroKafkaMessage, AvroBatch } from '@marciopd/avro-kafkajs';
 import { inspect } from 'util';
 import { loadConfigFile } from '../../config';
 import { devider, table, header, Output } from '../../output';

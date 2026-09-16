@@ -1,4 +1,5 @@
 import { Schema, schema } from 'avsc';
+import './ts-compose-compat';
 import { document, Type, printDocument } from '@ovotech/ts-compose';
 import { Convert, Context } from './types';
 import { isWrappedUnion, convertWrappedUnionType } from './types/wrapped-union';
@@ -12,7 +13,7 @@ import { isPrimitiveType, convertPrimitiveType } from './types/primitive';
 import { isFixedType, convertFixedType } from './types/fixed';
 import { withHeader, withImports } from '@ovotech/ts-compose/dist/document';
 import { fullName, firstUpperCase, nameParts, convertName } from './helpers';
-import * as ts from 'typescript';
+import ts from './ts-runtime';
 import { convertNamedType, isNamedType } from './types/named-type';
 
 export const addRef = (type: schema.RecordType | schema.EnumType, context: Context): Context => ({

@@ -1,4 +1,4 @@
-import { createCastle, produce, consumeEachMessage, describeCastle } from '@ovotech/castle';
+import { createCastle, produce, consumeEachMessage, describeCastle } from '@marciopd/castle';
 import { HeavySchema, Heavy, Light, LightSchema } from './avro';
 
 // Define producers as pure functions

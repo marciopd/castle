@@ -1,9 +1,9 @@
-import { AvroKafkaMessage } from '@ovotech/avro-kafkajs';
+import { AvroKafkaMessage } from '@marciopd/avro-kafkajs';
 import { Options as AvroOptions, AvroMock } from '@ovotech/avro-mock-generator';
 import {
   CastleEachBatchPayload,
   CastleEachMessagePayload,
-} from '@ovotech/castle';
+} from '@marciopd/castle';
 import { schema } from 'avsc';
 import { DeepOmit, DeepPartial } from 'ts-essentials';
 

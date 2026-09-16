@@ -1,5 +1,5 @@
 import { Type, Schema } from 'avsc';
-import { AvroEpochDays } from '@ovotech/avro-epoch-days';
+import { AvroEpochDays } from '@marciopd/avro-epoch-days';
 
 const previousSchema: Schema = {
   type: 'record',

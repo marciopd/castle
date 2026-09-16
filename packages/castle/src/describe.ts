@@ -1,4 +1,4 @@
-import { TopicsAlias } from '@ovotech/avro-kafkajs';
+import { TopicsAlias } from '@marciopd/avro-kafkajs';
 import { CastleConsumer, Castle } from './types';
 import { isString } from 'util';
 

@@ -1,5 +1,5 @@
 import { Kafka } from 'kafkajs';
-import { SchemaRegistry, AvroKafka } from '@ovotech/avro-kafkajs';
+import { SchemaRegistry, AvroKafka } from '@marciopd/avro-kafkajs';
 import { Schema } from 'avsc';
 
 const myValueSchema: Schema = {

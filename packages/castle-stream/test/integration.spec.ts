@@ -5,7 +5,7 @@ import {
   Logger,
   consumeEachMessage,
   LoggingContext,
-} from '@ovotech/castle';
+} from '@marciopd/castle';
 import * as uuid from 'uuid';
 import { Schema } from 'avsc';
 import { ObjectReadableMock } from 'stream-mock';

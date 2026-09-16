@@ -1,5 +1,5 @@
 import * as commander from 'commander';
-import { SchemaRegistry } from '@ovotech/avro-kafkajs';
+import { SchemaRegistry } from '@marciopd/avro-kafkajs';
 import { loadConfigFile } from '../../config';
 import { header, Output, highlight } from '../../output';
 

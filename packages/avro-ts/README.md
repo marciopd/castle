@@ -1,5 +1,7 @@
 # Avro TS
 
+> **Temporary fork.** This package is published as `@marciopd/avro-ts`, a personal fork of [`@ovotech/avro-ts`](https://github.com/ovotech/castle/tree/main/packages/avro-ts) created to validate a Node.js 22 / TypeScript 5.9 upgrade — including a fix for a runtime crash converting Avro enums (`Cannot create property 'pos' on string ...`) when TypeScript 5's AST factory is used — against a downstream project ahead of the official release. Once these fixes land in `@ovotech/avro-ts`, switch back to that package; this fork is not intended as a long-term dependency.
+
 Generate typescript from avro types.
 
 Uses typescript's compiler api to convert avro to typescript AST, and pretty prints the results.

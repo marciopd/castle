@@ -1,4 +1,4 @@
-import blaise from '@ovotech/blaise'
+import blaise from '@marciopd/blaise'
 
 const schema: avsc.RecordType = {
   type: 'record',

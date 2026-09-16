@@ -1,5 +1,7 @@
 # Castle
 
+> **Temporary fork.** This package is published as `@marciopd/castle`, a personal fork of [`@ovotech/castle`](https://github.com/ovotech/castle/tree/main/packages/castle) created alongside a Node.js 22 / TypeScript 5.9 upgrade test (see `@marciopd/avro-ts` for the specific fix involved). Once that upgrade lands in the official `@ovotech/castle` release, switch back to that package; this fork is not intended as a long-term dependency.
+
 A framework around [Kafka.js](https://github.com/tulios/kafkajs) to transparently use [Schema Registry](https://www.confluent.io/confluent-schema-registry/) and create an application that consumes, produces, and reacts to different kafka topics. Supports consumption in batches or in parallel. Statically define and verify the schemas / message types in TypeScript
 
 ### Usage
